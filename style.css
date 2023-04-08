@@ -136,7 +136,8 @@ p, a {
 }
 
 .table-part>td a:hover {
-    color: #383838;
+    cursor: pointer;
+    color: #1d1c1c;
 }
 
 .table-part>td a:focus {
