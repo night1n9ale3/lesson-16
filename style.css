@@ -203,9 +203,10 @@ a {
 .summary {
     background: #2C343E;
     align-items: center;
-    padding: 50px 80px;
-    margin-left: 350px;
-    
+    width: 695px;
+    height: 150px;
+    padding: 70px 50px;
+    margin-left: 415px;
     margin-top: 100px;
     border-radius: 10px;
 }
@@ -235,7 +236,7 @@ a {
     border: none;
     padding: 18px 45px;
     border-radius: 5px;
-    margin-left: 1000px;
+    margin-left: 960px;
     margin-top: 50px;
     color: white;
     font-family: 'fraunces';
@@ -265,4 +266,34 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 50px;
+    grid-gap: 10px;
+}
+
+.footer-logo>h3 {
+    font-size: 25px;
+    color: white;
+}
+
+.footer-menu {
+    font-size: 10px;
+    margin-right: 200px;
+}
+
+.footer-menu>a {
+    text-decoration: none;
+    color: #83888F;
+    padding: 15px;
+}
+
+.social-media {
+    padding-right: 70px;    
+}
+
+.social_media-part:nth-child(1) {
+    padding-right: 15px;
+}
+
+.social_media-part:nth-child(2) {
+    padding-right: 15px;
 }
