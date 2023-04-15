@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
-
+    
 * {
     font-family: 'fraunces';
 }
@@ -12,7 +12,7 @@ a {
 }
 
 .container {
-    width: 1250px;
+    max-width: 1440px;
     padding: 0 3%;
     margin: 0 auto;
 }
@@ -45,10 +45,22 @@ a {
     font-size: 10px;
 }
 
+.nav_menu>a:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.nav_menu>a:active {
+    cursor: pointer;
+    color: #000000;
+    text-decoration: underline;
+}
+
 .bitmap {
     background-image: url(./Bitmap.jpg);
     background-position-x: center;
     background-repeat: no-repeat;
+    width: 1280px;
     height: 450px;
     border-radius: 10px;
 }
@@ -73,8 +85,8 @@ a {
     margin-top: 200px;
     background-color: #2C343E;
     border-radius: 10px;
-    width: 1250px;
-    height: 650px;
+    width: 1280px;
+    height: 653px;
 }
 
 .line {
@@ -128,12 +140,12 @@ a {
 }
 
 .table {
-    margin-bottom: 930px;
+    margin-bottom: 1020px;
 }
 
 .table-part {
-    font-size: 30px;
-    line-height: 100px;
+    font-size: 27px;
+    line-height: 80px;
 }
 
 .table-part>td a {
@@ -206,7 +218,7 @@ a {
     width: 695px;
     height: 150px;
     padding: 70px 50px;
-    margin-left: 415px;
+    margin-left: 390px;
     margin-top: 100px;
     border-radius: 10px;
 }
@@ -236,7 +248,7 @@ a {
     border: none;
     padding: 18px 45px;
     border-radius: 5px;
-    margin-left: 960px;
+    margin-left: 940px;
     margin-top: 50px;
     color: white;
     font-family: 'fraunces';
@@ -253,9 +265,10 @@ a {
 }
 
 .footer {
-    width: 1280px;
+    padding: 0%;
     height: 90px;
-    margin: 190px 30px 0px 30px;
+    margin-top: 200px;
+    margin-bottom: 100px;
     background: #2C343E;
     display: flex;
     align-items: center;
