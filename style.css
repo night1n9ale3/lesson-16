@@ -60,9 +60,8 @@
 
     .bitmap {
         background-image: url(./Bitmap.jpg);
-        background-position-x: center;
         background-repeat: no-repeat;
-        width: 1200px;
+        width: 1280px;
         height: 450px;
         border-radius: 10px;
     }
@@ -80,14 +79,14 @@
     .bitmap>span p {
         font-size: 15px;
         margin-left: 50px;
-        line-height: 25px;
+        line-height: 30px;
     }
 
     .bitmap-2 {
         margin-top: 200px;
         background-color: #2C343E;
         border-radius: 10px;
-        width: 1200px;
+        width: 1280px;
         height: 653px;
     }
 
@@ -143,6 +142,7 @@
     }
 
     .table {
+        margin-left: 30px;
         margin-bottom: 1020px;
     }
 
@@ -184,7 +184,7 @@
     .card-group {
         display: flex;
         align-items: center;
-        grid-gap: 20px;
+        grid-gap: 30px;
     }
 
     .card {
@@ -221,7 +221,7 @@
         width: 695px;
         height: 150px;
         padding: 70px 50px;
-        margin-left: 390px;
+        margin-left: 420px;
         margin-top: 100px;
         border-radius: 10px;
     }
@@ -251,7 +251,7 @@
         border: none;
         padding: 18px 45px;
         border-radius: 5px;
-        margin-left: 940px;
+        margin-left: 970px;
         margin-top: 50px;
         color: white;
         font-family: 'fraunces';
@@ -355,7 +355,7 @@
 
     .cards-menu {
         margin-top: 200px;
-        margin-left: 300px;
+        margin-left: 3.00px;
     }
 
     .ourtext>h1 {
@@ -380,8 +380,8 @@
     }
 
     .table {
-        margin-bottom: 670px;
-        margin-left: -20px;
+        margin-left: 20px;
+        margin-top: 5px;
     }
 
     .table-part {
@@ -446,18 +446,36 @@
 }
 
 @media only screen and (max-width:1179px) {
+    .cards-menu {
+        margin-right: -200px;
+    }
+
     .table-part {
-        font-size: 20px;
+        font-size: 19px;
     }
 }
 
 @media only screen and (max-width: 1152px) {
+    .nav_menu {
+        margin-left: -100px;
+    }
+
     .bitmap {
-        width: 1100px;
+        width: 1050px;
+        height: 500px;
+    }
+
+    .bitmap>span h1 {
+        font-size: 35px;
+    }
+
+    .bitmap>span p {
+        font-size: 14px;
+        line-height: 23px;
     }
 
     .bitmap-2 {
-        width: 1100px;
+        width: 1050px;
         height: 600px;
     }
 
@@ -483,10 +501,6 @@
 
     .table {
         margin-bottom: 500px;
-    }
-
-    .table-part {
-        margin-left: -6px;
     }
 
     .ourtext>h1 {
@@ -533,19 +547,20 @@
         margin-left: 800px;
     }
 }
+
 @media only screen and (max-width:1135px) {
     .nav_menu {
-        margin-left: -100px;
+        margin-left: -160px;
         grid-gap: 10px;
     }
-    
+
     .bitmap {
-        width: 1050px;
+        width: 1000px;
         height: 550px;
     }
 
     .bitmap-2 {
-        width: 1050px;
+        width: 1000px;
         height: 550px;
     }
 
@@ -573,13 +588,4 @@
     }
 }
 
-@media only screen and (max-width:1108px) {
-    .table-part {
-        font-size: 18px;
-        padding: 100px;
-    }
-}
-
-@media only screen and (max-width:1094px) {
-    
-}
+@media only screen and (max-width:1037px) {}
