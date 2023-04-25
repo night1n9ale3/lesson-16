@@ -59,6 +59,10 @@
         text-decoration: underline;
     }
 
+    .fa-solid {
+        display: none;
+    }
+
     .bitmap {
         background-image: url(./Bitmap.jpg);
         background-repeat: no-repeat;
@@ -214,6 +218,7 @@
         padding-top: 10px;
         line-height: 30px;
         opacity: 0.7;
+        width: 200px;
     }
 
     .summary {
@@ -722,5 +727,58 @@
 }
 
 @media only screen and (max-width:425px) {
-    
+    .navbar {
+        grid-gap: 700px;
+        margin-left: 300px;
+    }
+    .nav_menu>a {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .cards-menu {
+        margin-left: 200px;
+    }
+
+    .card-group {
+        display: grid;
+        columns: 1;
+    }
+
+    .ourtext {
+        width: 350px;
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    .card>p {
+        width: 350px;
+    }
+
+    .summary {
+        margin-left: 300px;
+        width: 360px;
+        height: 350px;
+    }
+
+    .button-1 {
+        margin-left: 380px;
+        width: 250px;
+    }
+
+    .footer-menu {
+        display: grid;
+        columns: 1;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .social-media {
+        margin-left: 380px;
+    }
 }
