@@ -39,6 +39,7 @@
         align-items: center;
         justify-content: space-around;
         grid-gap: 10px;
+        margin-right: -50px;
     }
 
     .nav_menu>a {
@@ -64,6 +65,7 @@
         width: 1280px;
         height: 450px;
         border-radius: 10px;
+        
     }
 
     .bitmap>span {
@@ -142,7 +144,6 @@
     }
 
     .table {
-        margin-left: 30px;
         margin-bottom: 1020px;
     }
 
@@ -218,10 +219,10 @@
     .summary {
         background: #2C343E;
         align-items: center;
-        width: 695px;
+        width: 715px;
         height: 150px;
         padding: 70px 50px;
-        margin-left: 420px;
+        margin-left: 390px;
         margin-top: 100px;
         border-radius: 10px;
     }
@@ -251,7 +252,7 @@
         border: none;
         padding: 18px 45px;
         border-radius: 5px;
-        margin-left: 970px;
+        margin-left: 950px;
         margin-top: 50px;
         color: white;
         font-family: 'fraunces';
@@ -335,6 +336,17 @@
 
 
 @media only screen and (max-width:1280px) {
+    .navbar {
+        grid-gap: 700px;
+    }
+    .bitmap {
+        width: 1200px;
+    }
+
+    .bitmap-2 {
+        width: 1200px;
+    }
+
     .button-1 {
         margin-left: 900px;
     }
@@ -346,16 +358,15 @@
     }
 
     .bitmap {
-        width: 1145px;
+        width: 1200px;
     }
 
     .bitmap-2 {
-        width: 1150px;
+        width: 1200px;
     }
 
-    .cards-menu {
-        margin-top: 200px;
-        margin-left: 3.00px;
+    .main-menu {
+        grid-gap: 120px;
     }
 
     .ourtext>h1 {
@@ -380,8 +391,8 @@
     }
 
     .table {
-        margin-left: 20px;
-        margin-top: 5px;
+        margin-left: -10px;
+        margin-bottom: 700px;
     }
 
     .table-part {
@@ -411,21 +422,24 @@
     }
 }
 
-@media only screen and (max-width:1247px) {
-    .cards-menu {
-        margin-top: 260px;
+@media only screen and (max-width:1245px) {
+    .bitmap {
+        width: 1150px;
     }
-}
 
-@media only screen and (max-width:1241px) {
+    .bitmap-2 {
+        width: 1150px;
+    }
+
     .summary {
-        margin-left: 510px;
+        margin-left: 490px;
     }
 }
 
 @media only screen and (max-width:1235px) {
     .table {
         margin-left: -5px;
+        
     }
 
     .table-part {
@@ -433,15 +447,15 @@
     }
 
     .cards-menu {
-        margin-left: 250px;
-    }
+        margin-right: -250px;
+    } 
 
     .summary {
-        margin-left: 450px;
+        margin-left: 470px;
     }
 
     .button-1 {
-        margin-left: 880px;
+        margin-left: 900px;
     }
 }
 
@@ -452,6 +466,10 @@
 
     .table-part {
         font-size: 19px;
+    }
+
+    .button-1 {
+        margin-left: 880px;
     }
 }
 
@@ -549,19 +567,37 @@
 }
 
 @media only screen and (max-width:1135px) {
+    .navbar {
+        grid-gap: 500px;
+    }
+
     .nav_menu {
         margin-left: -160px;
         grid-gap: 10px;
     }
 
     .bitmap {
+        margin-left: 50px;
         width: 1000px;
         height: 550px;
     }
 
     .bitmap-2 {
+        margin-left: 50px;
         width: 1000px;
         height: 550px;
+    }
+
+    .main-menu {
+        margin-left: 70px;
+    }
+
+    .summary {
+        margin-left: 510px;
+    }
+
+    .button-1 {
+        margin-left: 800px;
     }
 
     .footer {
@@ -588,4 +624,103 @@
     }
 }
 
-@media only screen and (max-width:1037px) {}
+@media only screen and (max-width:1024px) {
+    .footer {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {        
+        grid-gap: 500px;
+        margin-right: -200px;
+    }
+
+    .bitmap {
+        width: 900px;
+    }
+
+    .bitmap-2 {
+        margin-top: -10px;
+        width: 1000px;
+        margin-left: -1px;
+    }
+
+    .table {
+        display: none;
+    }
+
+    .cards-menu {
+        margin-left: -1px;
+    }
+
+    .ourtext>h1 {
+        font-size: 35px;
+    }
+
+    .card-group {
+        grid-gap: 30px;
+    }
+
+    .card {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .card>h3 {
+        padding-left: 30px;
+        font-size: 25px;
+    }
+
+    .card>p {
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .summary {
+        margin-left: 70px;
+        width: 715px;
+        height: 150px;
+    }
+
+    .summary>h5 {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+
+    .summary-text {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .button-1 {
+        margin-left: 300px;
+        padding: 18px 45px;
+        font-size: 20px;
+    }
+
+    .footer {
+        display: grid;
+        width: 850px;
+        height: 300px;
+    }
+
+    .footer-logo {
+        margin-left: 300px;
+    }
+
+    .footer-menu {
+        margin-left: 300px;
+    }
+
+    .social-media {
+        margin-left: 350px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    
+}
